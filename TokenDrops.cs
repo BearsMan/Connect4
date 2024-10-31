@@ -21,7 +21,6 @@ public class TokenDrops : MonoBehaviour
     }
     public void SpawnToken()
     {
-        // Note for sub: Make the coin spawn on the cube that player clicks on.
         Instantiate(token);
         MeshRenderer tokenMaterialRenderer = token.GetComponent<MeshRenderer>();
         if (gameManager.redTurn)
